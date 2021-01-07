@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width:100%;
+    height: auto;
+    font-family: Montserrat;
+}
+
+hr{
+    align-self: center;
+    margin-top:100px ;
+    padding: 0 10px ;
+}
+
+
+.navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px 80px 30px 20px;
+    position: sticky;
+    top: 0px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
+}
+
+.navcontainer {
+    display:contents;
+}
+
+.navcontainer a {
+    text-decoration: none;
+    color: black;   
+    font-size: 25px;
+    
+}
+
+.navcontainer a:hover{
+    color: orange;
+}
+
+
+h4 {
+    color: white;
+    font-size: 58px;
+    
+}
+
+h5 {
+    display: flex;
+    color: black;
+    padding-left: 50px;
+    font-size: 44px;
+}
+
+
+
+#home{
+    color: white;
+    text-align: center;
+    background: url(/image/accueil.png) no-repeat center;
+    background-size: 100% ;
+    height: 800px;
+}
+
+.text-home {
+    align-content: center;
+    padding-top: 100px;
+}
+
+ h2 {
+    color: black;
+    font-size: 24px;
+    padding: 100px;
+    
+}
+
+
+.text-home {
+    padding-top: 100px;
+    align-items: center;
+}
+
+.id_user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nom{
+    display : block;
+    margin-left: 200px;
+}
+.prenom{
+    display: block;
+    margin-right: 200px;
+}
+
+.votre_commande{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-size: 27px;   
+}
+
+form {
+    padding-left: 100px;
+}
+form h1 {
+    padding-left: 200px;
+    font-size: 44px;   
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 8px 12px 8px 12px;
+    width: 400px;
+}
+::placeholder {
+    color: #BFBFBF;
+  }
+  hr{
+    width: 600px;
+  }
+ .p4{
+     color: #FA4A0C;
+     font-size: 15px;
+     margin-right: 245px;
+ } 
+ .ing_qua{
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     padding-left: 100px;
+ }
+select{
+    margin: 10px 0px 20px 0px;
+    padding: 8px 12px 8px 12px;
+    width: 220px;
+}
+.quantite{
+    margin-right: 400px;
+}
+.fritta{
+width: 20px;
+}
+#desboi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dessert{
+    width: 50%;
+}
+
+
+
+.bd{
+    width: 10%;
+    display: inline-block;
+}
+.db{
+    width: 10%;
+    display: inline-block;
+}
+
+
+.adresse_liv {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 50px;
+}
+
+.adresse_liv2 {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 50px;
+}
+
+
+.buton{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    width: 177px;
+    height: 52px;
+    font-size: 23px;
+    float: right;
+    font-weight: 700; 
+    margin-bottom: 140px;
+    margin-top: 110px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1268px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        padding: 0;
+        position: relative;
+    }
+
+    #home{
+        height: 400px;
+        width: 100%;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+   
+    h1 {
+        font-size: 20px;
+    }
+
+    #desboi{
+        
+        flex-direction: column-reverse;
+    }
+
+
+}
